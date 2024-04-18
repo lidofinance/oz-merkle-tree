@@ -59,5 +59,5 @@ characteristics that make them secure and good for on-chain verification.
 - The leaves are sorted.
 - The leaves are the result of ABI encoding a series of values.
 - The hash used is Keccak256.
-- The leaves are double-hashed1 to prevent second preimage attacks.
+- The leaves are double-hashed to prevent second preimage attacks.
 
