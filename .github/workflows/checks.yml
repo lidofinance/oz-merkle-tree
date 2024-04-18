@@ -73,6 +73,8 @@ jobs:
 
   security:
     uses: lidofinance/linters/.github/workflows/security.yml@master
+    with:
+      languages: python
     permissions:
       security-events: write
       contents: read
