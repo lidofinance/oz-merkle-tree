@@ -2,7 +2,7 @@
 
 **A Python library to generate Merkle trees and Merkle proofs.**
 
-This is project is compatible with the [OpenZeppelin StandardMerkleTree](https://github.com/OpenZeppelin/merkle-tree).
+This is a project compatible with the [OpenZeppelin StandardMerkleTree](https://git@openzeppelin/merkle-treehub.com/OpenZeppelin/merkle-tree).
 
 #### Usage
 
