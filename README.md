@@ -2,9 +2,9 @@
 
 **A Python library to generate Merkle trees and Merkle proofs.**
 
-This is a project compatible with the [OpenZeppelin StandardMerkleTree](https://git@openzeppelin/merkle-treehub.com/OpenZeppelin/merkle-tree).
+This is a project compatible with the [OpenZeppelin StandardMerkleTree](https://github.com/OpenZeppelin/merkle-tree).
 
-#### Install
+### Install
 
 Install the package via your package manager, e.g.:
 
@@ -12,7 +12,7 @@ Install the package via your package manager, e.g.:
 poetry add git+https://github.com/lidofinance/oz-merkle-tree
 ```
 
-#### Usage
+### Usage
 
 **Building a tree**
 
@@ -58,7 +58,7 @@ for v in tree.values:
     print([f"0x{p.hex()}" for p in proof])
 ```
 
-#### Standard Merkle Trees
+### Standard Merkle Trees
 
 This library works on "standard" merkle trees designed for Ethereum smart contracts. We have defined them with a few
 characteristics that make them secure and good for on-chain verification.
