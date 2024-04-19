@@ -4,6 +4,14 @@
 
 This is a project compatible with the [OpenZeppelin StandardMerkleTree](https://git@openzeppelin/merkle-treehub.com/OpenZeppelin/merkle-tree).
 
+#### Install
+
+Install the package via your package manager, e.g.:
+
+```bash
+poetry add git+https://github.com/lidofinance/oz-merkle-tree
+```
+
 #### Usage
 
 **Building a tree**
